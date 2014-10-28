@@ -1,0 +1,3 @@
+PKG_LIBS=-L/usr/lib64 -lgsl -lblas
+PKG_CXXFLAGS=-I/usr/include
+
