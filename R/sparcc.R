@@ -1,6 +1,5 @@
 require(gtools)
 
-
 ## NB
 ##------------------------------
 ## count matrix x should be samples on the rows and OTUs on the colums,
@@ -91,8 +90,8 @@ variation.mat <- function(fracs){
   idx <- combn(1:dim(fracs)[2],2)
 
   ## create matrix Ti,j
-  ttmp <- tmplog[,idx[1,]] -   tmplog[,idx[2,]]
-
+  ttmp <- tmplog[,idx[1,]] - tmplog[,idx[2,]]
+  
   ## Compute Variance
   vartmp <- apply(ttmp,2, var)
   
@@ -108,12 +107,12 @@ basis.var <- function(fracs, V, Vmin=1e-4, excluded=NULL, Covmat=NULL, M=NULL){
 
   Vsize <- dim(V)
   Vvec <- apply(V,1,sum)
-
+  
   ## Initialize Covmat matrix
   if (is.null(Covmat))
     Covmat <- matrix(0, nrow=Vsize[1], ncol=Vsize[2])
 
-  Covvec <- apply(Covmat - diag(Covmat),1,sum)
+  Covvec <- apply(Covmat - diag(diag(Covmat)),1,sum)
   ## Initialize M matrix 
   if (is.null(M)){
     M <- matrix(1, nrow=Vsize[1], ncol=Vsize[2])
