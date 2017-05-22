@@ -6,6 +6,7 @@ Author@R: c(person("Michele", "Filosi", role = c("aut","cre" ), email
         = "michele.filosi@unitn.it")
 Author: Michele Filosi [aut, cre]
 Depends: R (>= 2.14.0)
+Imports: gtools
 Maintainer: Michele Filosi <michele.filosi@unitn.it>
 Description: This package does some kind of correlation with count data based on a binomial distribution
 License: GPL-3
