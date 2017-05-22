@@ -1,7 +1,7 @@
 \name{normalize.matrix}
 \alias{normalize.matrix}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{Normalize the input matrix
 %%  ~~function to do ... ~~
 }
 \description{

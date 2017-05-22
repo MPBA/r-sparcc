@@ -1,7 +1,7 @@
 \name{sparcc}
 \alias{sparcc}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{This is the main function
 %%  ~~function to do ... ~~
 }
 \description{

@@ -1,7 +1,7 @@
 \name{counts2frac}
 \alias{counts2frac}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{Convert counts to fractions
 %%  ~~function to do ... ~~
 }
 \description{

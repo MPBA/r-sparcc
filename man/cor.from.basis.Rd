@@ -1,7 +1,7 @@
 \name{cor.from.basis}
 \alias{cor.from.basis}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{Compute the correlation from the basis
 %%  ~~function to do ... ~~
 }
 \description{

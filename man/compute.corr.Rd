@@ -1,7 +1,7 @@
 \name{compute.corr}
 \alias{compute.corr}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{Compute the actual correlation
 %%  ~~function to do ... ~~
 }
 \description{

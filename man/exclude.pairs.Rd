@@ -1,7 +1,7 @@
 \name{exclude.pairs}
 \alias{exclude.pairs}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{Exclude paires from correlation matrix
 %%  ~~function to do ... ~~
 }
 \description{

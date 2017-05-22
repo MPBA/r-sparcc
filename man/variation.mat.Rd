@@ -1,7 +1,7 @@
 \name{variation.mat}
 \alias{variation.mat}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{Compute the variation matrix
 %%  ~~function to do ... ~~
 }
 \description{

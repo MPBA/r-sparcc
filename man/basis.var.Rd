@@ -1,7 +1,7 @@
 \name{basis.var}
 \alias{basis.var}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{This is the basis variance function
 %%  ~~function to do ... ~~
 }
 \description{
